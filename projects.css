@@ -1,0 +1,81 @@
+.projects{
+    text-align: center;
+    font-size: larger;
+    margin-top: 20rem;
+}
+
+.forth-title{
+    margin-top: 5rem;
+    font-size: larger;
+}
+.recifememorias{
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(23, 46, 1);
+    color: rgb(244, 249, 245);
+    border: 2px solid #140101;
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.img-proj{
+    min-width: 200px;
+    max-width: 350px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+.RECIFEME{
+    background-color: rgb(207, 255, 151);
+    align-items: center;
+    gap: 4rem;
+    scroll-margin-top: 20rem;
+    color: rgb(13, 54, 1);
+    
+    
+}
+
+.rec{
+    min-width: 400px;
+    text-align: justify;
+    padding: 1rem;
+    display: flex;
+    
+}
+
+.first-title{
+    text-align: center;
+}
+
+.imagerec{
+    max-width: 300px;
+    margin: 2rem;
+    position: relative;
+    line-height: 0;
+}
+
+.rec__right{
+    min-width: 52rem;
+    flex: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    max-width: 90rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    font-size: larger;
+    padding-left: 2rem;
+}
+
+.rec__left{
+    margin-left: 2rem;
+}
+
