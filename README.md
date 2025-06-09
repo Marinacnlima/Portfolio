@@ -65,6 +65,7 @@ Se quiser acompanhar minha trajetória ou entrar em contato:
 
 - [Instagram](https://www.instagram.com/marinacabraln?igsh=a2k5MmdmN2Q0ZDFx)
 - [LinkedIn](https://www.linkedin.com/in/marinacnlima)
+- [Email](marinacabralima@gmail.com)
 
 ## ⚖️ Licença
 
