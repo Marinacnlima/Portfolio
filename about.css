@@ -9,7 +9,26 @@
     border-radius: 10px;
 }
 
-.about p{
-    font-size: larger;
+.about h2{
+    font-size: 4rem;
 }
 
+.about h3{
+    font-size: 3rem;
+}
+.about p{
+    font-size: 2.5;
+}
+
+@media (max-width: 768px) {
+  .about h2 {
+    font-size: 2.8rem
+  }
+  .about h3{
+    font-size: 2.3rem;
+  }
+  
+  .about p {
+    font-size: 2rem;
+  }
+}
