@@ -16,7 +16,9 @@
                 <a href="/">
                     <p>MCabral</p>
                 </a>
-                <ul class="navbar__links">
+                <button class="navbar-toggle" id="menu-btn">&#9776</button>
+               
+                <ul class="navbar__links" id="navbar-menu">
                     <li><a href="#header">Início</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#skills">Habilidades e Certificados</a></li>
@@ -27,21 +29,41 @@
             </div>
         </nav>
 
-        <header id="header" class="max-width">
-            <div class="header__left">
-                <h1>Olá! Sou Marina.</h1>
-                <p>Estudante de Ciência da Computação, com forte interesse nas áreas de tecnologia, aprendizado contínuo e colaboração multicultural. Valorizo o trabalho em equipe, a comunicação eficaz e a construção de soluções que gerem impacto. Minha vivência com esportes reforçou minha disciplina, resiliência e capacidade de adaptação — qualidades que levo para minha trajetória no setor da tecnologia. Estou em constante evolução, buscando oportunidades para desenvolver habilidades técnicas e contribuir ativamente em projetos inovadores.</p>
-            </div>
-            <div class="header__right">
-                <div class="header__image">
-                    <img src="assetss/IMG_06222.jpg" alt="Marina Cabral" class="marina">
+        <script>
+            const toggleButton = document.getElementById('menu-btn');
+            const navbarMenu = document.getElementById('navbar-menu');
+
+            toggleButton.addEventListener('click',() => {
+                navbarMenu.classList.toggle('show');
+            });
+        </script>
+        <section class="HEADER">
+            <header id="header">
+                <div class="header__left">
+                    <h1>Olá! Sou Marina.</h1>
+                    <p>
+                        Estudante de Ciência da Computação, com forte interesse nas áreas de tecnologia, 
+                        aprendizado contínuo e colaboração multicultural. Valorizo o trabalho em equipe, 
+                        a comunicação eficaz e a construção de soluções que gerem impacto. Minha vivência 
+                        com esportes reforçou minha disciplina, resiliência e capacidade de adaptação — 
+                        qualidades que levo para minha trajetória no setor da tecnologia. Estou em constante 
+                        evolução, buscando oportunidades para desenvolver habilidades técnicas e contribuir 
+                        ativamente em projetos inovadores.
+                    </p>
+                </div>
+                <div class="header__right">
+                    <div class="header__image">
+                        <img src="assetss/IMG_06222.jpg" alt="Marina Cabral" class="marina">
                     </div>
-            </div>
-        </header>
+                </div>
+            </header>
+        </section>
+
+        
 
         <section id="about" class="about max-width">
-                <h2 class="secondary-title">Além de Estudante: Quem Sou Eu? </h2>
-                <h3 class="tertiary-title class mb-m">
+                <h2>Além de Estudante: Quem Sou Eu? </h2>
+                <h3>
                     Estudante de Ciências da Computação apaixonada por tecnologia e soluções inovadoras.
                 </h3>
                 <p>
